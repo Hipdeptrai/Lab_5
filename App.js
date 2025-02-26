@@ -17,7 +17,7 @@ const App = () => {
         <Stack.Screen
           name="UserDetail"
           component={UserDetailScreen}
-          options={{ title: 'Chi tiết người dùng' }}
+          options={{ title: 'Chi tiết' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

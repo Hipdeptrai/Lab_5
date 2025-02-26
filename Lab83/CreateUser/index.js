@@ -13,7 +13,7 @@ const CreateUserScreen = ({ navigation }) => {
 
     const handleCreateUser = async () => {
         if (!name.trim() || !date) {
-            Alert.alert('Lỗi', 'Vui lòng nhập đầy đủ thông tin.');
+            Alert.alert('Lỗi', 'Vui lòng nhập đầy đủ.');
             return;
         }
 
