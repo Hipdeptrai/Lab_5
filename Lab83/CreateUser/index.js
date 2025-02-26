@@ -25,7 +25,7 @@ const CreateUserScreen = ({ navigation }) => {
                 { headers: { 'Content-Type': 'application/json' } }
             );
 
-            Alert.alert('Thành công', 'Tạo tài khoản thành công');
+            Alert.alert('Thành công', 'thành công');
             navigation.navigate('UserList'); // Quay lại danh sách user
         } catch (error) {
             console.log('Lỗi API:', error.response?.data || error.message);
